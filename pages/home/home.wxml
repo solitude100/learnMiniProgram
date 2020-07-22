@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<!-- 1.数据绑定的演示 -->
+<view>hello {{name}}</view>
+<view>年龄：{{age}}</view>
+<!-- 列表的渲染 -->
+<view wx:for="{{goods_list}}">{{item.name}}</view>
+<view wx:for="{{goods_list}}">{{index}}</view>
+<view>当前计数：{{counter}}</view>
+<button size="mini" bindtap="increment">+</button>
+<button size="mini" bindtap="decrement">-</button>

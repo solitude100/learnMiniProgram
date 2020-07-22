@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundColor": "#07c05f",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffca28",
+    "navigationBarTitleText": "美团",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  }
+}
